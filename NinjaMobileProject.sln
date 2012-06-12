@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{00000000-0000-0000-0000-000000000000}") = "NinjaMobileProject", "NinjaMobileProject\NinjaMobileProject.proj", "{78841544-FE9F-4A91-9C7A-EFBF9E88CFDE}"
+EndProject
+Global
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78841544-FE9F-4A91-9C7A-EFBF9E88CFDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78841544-FE9F-4A91-9C7A-EFBF9E88CFDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78841544-FE9F-4A91-9C7A-EFBF9E88CFDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78841544-FE9F-4A91-9C7A-EFBF9E88CFDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+EndGlobal
