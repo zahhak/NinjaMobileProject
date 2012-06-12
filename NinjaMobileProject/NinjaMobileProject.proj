@@ -1,0 +1,67 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<ProjectGuid>78841544-fe9f-4a91-9c7a-efbf9e88cfde</ProjectGuid>
+		<ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+		<AppIdentifier>com.telerik.NinjaMobileProject</AppIdentifier>
+		<ProvisionName></ProvisionName>
+		<ProjectName>NinjaMobileProject</ProjectName>
+		<IsRunnable>true</IsRunnable>
+		<TemplateAppName>Cordova170</TemplateAppName>
+	</PropertyGroup>
+	<ItemGroup>
+		<Folder Include="App_Resources" />
+		<Folder Include="App_Resources\iOS">
+		  <Platform>iOS</Platform>
+		</Folder>
+		<Folder Include="App_Resources\Android">
+			<Platform>Android</Platform>
+		</Folder>
+		<Folder Include="App_Resources\Android\drawable-hdpi">
+			<Platform>Android</Platform>
+		</Folder>
+		<Folder Include="App_Resources\Android\drawable-mdpi">
+			<Platform>Android</Platform>
+		</Folder>
+		<Folder Include="App_Resources\Android\drawable-ldpi">
+			<Platform>Android</Platform>
+		</Folder>
+	</ItemGroup>
+	<ItemGroup>
+		<Resource Include="App_Resources\iOS\icon.png" />
+		<Resource Include="App_Resources\iOS\icon@2x.png" />
+		<Resource Include="App_Resources\iOS\icon-72.png" />
+		<Resource Include="App_Resources\iOS\icon-72@2x.png" />
+		<Resource Include="App_Resources\iOS\Icon-Small.png" />
+		<Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+		<Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+		<Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />		
+		<Resource Include="App_Resources\iOS\Default.png" />
+		<Resource Include="App_Resources\iOS\Default@2x.png" />
+		<Resource Include="App_Resources\iOS\Default-Portrait.png" />
+		<Resource Include="App_Resources\iOS\Default-Landscape.png" />
+		<Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+		<Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+		<Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+		<Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="index.html" />
+		<Content Include="jquery-mobile\images\ajax-loader.png" />
+		<Content Include="jquery-mobile\images\icons-18-black.png" />
+		<Content Include="jquery-mobile\images\icons-18-white.png" />
+		<Content Include="jquery-mobile\images\icons-36-black.png" />
+		<Content Include="jquery-mobile\images\icons-36-white.png" />
+		<Content Include="jquery-mobile\jquery-1.7.2.min.js" />
+		<Content Include="jquery-mobile\jquery.mobile-1.1.0.min.css" />
+		<Content Include="jquery-mobile\jquery.mobile-1.1.0.min.js" />
+		<Content Include="js\hello-world.js" />
+		<Content Include="styles\main.css" />
+	</ItemGroup>
+	<PropertyGroup>
+		<MobileToolsPath>$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\</MobileToolsPath>
+	</PropertyGroup>
+	<Import Project="$(MobileToolsPath)\MobileTools.targets"/>
+</Project>
